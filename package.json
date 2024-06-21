@@ -1,0 +1,16 @@
+{
+	"name": "brc",
+	"module": "src/index.ts",
+	"type": "module",
+	"scripts": {
+		"default": "bun run src/index.ts",
+		"single": "bun run src/single.ts",
+		"multi": "bun run src/multi.ts"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.4.5"
+	}
+}
